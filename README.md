@@ -108,7 +108,7 @@ vendor/bin/twigstan
 
 #### Recommended Setup
 
-* Create a dedicated phpstan config file for TwigStan, so be able to adjust PHPStan's `level` and extensions independently. In `twigstan.php`:
+* Create a dedicated phpstan config file for TwigStan, to be able to adjust PHPStan's `level` and extensions independently. In `twigstan.php`:
     ```php
     ->phpstanConfigurationFile(__DIR__ . '/phpstan-twigstan.neon')
     ```
